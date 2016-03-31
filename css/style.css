@@ -1,0 +1,118 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.me-image {
+  height: 180px;
+}
+
+.intro
+{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-bottom: 50px;
+}
+
+.about .col
+{
+    margin-bottom: 24px;
+}
+
+.text-title
+{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.about hr
+{
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.about .card
+{
+    text-align: center;
+}
+
+.portfolio .col
+{
+    margin-bottom: 24px;
+}
+
+.portfolio hr
+{
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img
+{
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
