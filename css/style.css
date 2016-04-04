@@ -27,6 +27,14 @@ p {
     margin-bottom: 50px;
 }
 
+.footro
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+
 .about .col
 {
     margin-bottom: 24px;
@@ -40,6 +48,13 @@ p {
 }
 
 .about hr
+{
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.contact hr
 {
     width: 40px;
     margin-top: 30px;
