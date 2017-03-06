@@ -47,6 +47,27 @@ p {
     margin-top: 50px;
 }
 
+.intro-blurb
+{
+  text-align: left;
+}
+
+.social-icons ul li {
+  display: inline;
+  padding-left: 15%;
+  color: white;
+}
+
+.social-icons a {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card.small .card-content {
+  max-height: 100% !important;
+}
+
 .about hr
 {
     width: 40px;

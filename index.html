@@ -16,13 +16,32 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- JS -->
+  <script src="https://use.fontawesome.com/7bd996ddd8.js"></script>
+
 </head>
 <body class="grey lighten-5">
   <div id="index-banner" class="parallax-container">
     <div class="section">
       <div class="container">
         <div class="intro row center">
-          <h2 class="header col s12 white-text text-lighten-5">I am Alexander Matheson</h2>
+          <div class="col s12 m12 intro-box">
+            <div class="col s12 m4 l4 offset-m2 offset-l2 intro-picture">
+              <img src="img/header-img.png" class="responsive-img">
+            </div>
+            <div class="col s12 m6 m6 intro-blurb">
+              <h3 class="header col s12 white-text text-lighten-5">Hi I am Alexander!</h3>
+              <p> I am a data analyst/developer between San Francisco and Vancouver. Founder of Paipu Labs.
+              <div class="social-icons">
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/alexandermatheson"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/zandermath"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+                  <li><a href="https://amath-experiments.tumblr.com/"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 <!--         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light cyan lighten-1">Contact Me</a>
@@ -39,46 +58,24 @@
       <h6 class="header center">let me introduce myself</h6>
     <hr>
     <div class="row">
-      <div class="col s12 m4 l4">
-        <h6 class="story">story</h6>
-        <p>Born and Raised in Vancouver BC, I am an outdoor enthusiast and interested in the intersection between humanity and technology. I was educated in civil engineering and business, but have always been interested in computers and helping people find solutions to their technology problems. In my life I would like to use technology to help solve some of humanities problems like pollution and education.</p>
-      </div>
-      <div class="col s12 m4 l4">
-        <h6 class="story">profile</h6>
-        <div class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <img src="img/me.jpg" class="circle responsive-img"width="64" height="64">
-            <ul>
-              <li>MSc Management, HEC Paris, 2016<li>
-              <li>General Assembly Back End Web Development, 2015<li>
-              <li>BASc Civil Engineering, University of British Columbia, 2011<li>
-          </div>
-          <div class="card-action">
-            <a href="https://www.linkedin.com/in/alexandermatheson">Linkedin</a>
-            <a href='https://github.com/zandermath'>Github</a>
+      <div class="col s12 m6 l6">
+        <div class="card small">
+          <span class="card-title">Story</span>
+          <div class="card-content">
+            <p>Born and Raised in Vancouver BC, I am an outdoor enthusiast and interested in the intersection between humanity and technology. I was educated in civil engineering and business, but have always been interested in computers and helping people find solutions to their technology problems. In my life I would like to use technology to help solve some of humanities problems like pollution and education.</p>
           </div>
         </div>
       </div>
-      <div class="col s12 m4 l4">
-        <h6 class="story">current hats I wear</h6>
-        <ul class="collapsible">
-          <li class="active">
-            <div class="collapsible-header"><i class="mdi-av-web"></i>Presales/Sales Engineer</div>
-            <div class="collapsible-body"><p>technical presentations and demonstrations, partner training, architecture, sizing and deployment.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="mdi-editor-format-align-justify"></i>Product Marketing</div>
-            <div class="collapsible-body"><p>product communication to help educate potential customers about Verbio</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="mdi-av-play-shopping-bag"></i>Sales</div>
-            <div class="collapsible-body"><p>evaluate inbound sales requests</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="mdi-editor-insert-comment"></i>Technical Support</div>
-            <div class="collapsible-body"><p>technical support post sale and support for partners</p></div>
-          </li>
-        </ul>
+      <div class="col s12 m6 l6">
+        <div class="card small">
+          <span class="card-title">Profile</span>
+          <div class="card-content">
+            <ul>
+              <li>MSc Management, HEC Paris, 2016</li>
+              <li>General Assembly Back End Web Development, 2015</li>
+              <li>BASc Civil Engineering, University of British Columbia, 2011</li>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -87,11 +84,91 @@
   <div class="container portfolio">
     <div class="section">
       <h4 class="header center text-title">My Work</h4>
-      <h6 class="header center">a few projects that I have worked on at work or on my own</h6>
+      <h6 class="header center">a few projects that I have worked on.</h6>
       <hr>
       <!--   Project Cards with description   -->
+      <!-- Row One of projects -->
+      <div class="row">
+
+        <!-- Project 1 -->
+        <div class="col s12 m4 card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/project3.jpeg">
+          </div>
+          <div class="card-content">
+            <p class="light"><b>IoT 2-factor Authentication</b> - DeveloperWeek Hackathon Winners - 2-factor auth service for IoT.</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">2-Factor Auth<i class="material-icons right">close</i></span>
+            <a class="btn btn-large waves-effect waves-light teal lighten-1" href="https://bypass-auth2.github.io/docs.html">check it out</a>
+            <p class="light">As a team of 2, we built and launched a python based SDK that allows users to easily use Flowroute SMS service to provide 2-factor authentication for Amazon Alexa or Google Home or other voice activated IoT devices. The project was selected as the winning project out of nearly 200 teams.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/project4.jpg" style="height:180px;">
+          </div>
+          <div class="card-content">
+            <p class="light"><b>Exploratory Data Analysis</b> - Exploring the Titanic Survivors list with Python and Pandas.</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Data Analysis<i class="material-icons right">close</i></span>
+            <a class="btn btn-large waves-effect waves-light teal lighten-1" href="https://github.com/zandermath/titanic-exploratory-analysis/blob/master/Titanic.ipynb">check it out</a>
+            <p class="light">As part of the Udacity Data Analyst course, I used Python and the well known library Pandas to compute some statistics and show some different visualizations in order to show correlations in passenger attributes and survival rate.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/project2.png">
+          </div>
+          <div class="card-content">
+            <p class="light"><b>Paipu Labs</b> - Data Analysis and Data Engineering</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Paipu Labs<i class="material-icons right">close</i></span>
+            <a class="btn btn-large waves-effect waves-light teal lighten-1" href="">check it out</a>
+            <p class="light">Out of the demand for experts who can develop and help manage data pipelines, my interest in automation and data analysis, I founded Paipu Labs. Paipu Labs is a group of data scientists and data engineers who apply machine learning algorithms and data analysis techniques to business data sets in order to automate decisions and provide insights.</p>
+          </div>
+        </div>
+
+      </div>
+
       <!-- Row Two of projects -->
       <div class="row">
+      <!-- Project 4 -->
+        <div class="col s12 m4 card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/project6-2.jpg">
+          </div>
+          <div class="card-content">
+            <p class="light"><b>Volunteer Consulting</b> - Social impact data gathering and analysis for a Pay-As-You-Go (PAYG) solar company <a href="http://www.azuri-technologies.com/">Azuri</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Volunteer Consulting<i class="material-icons right">close</i></span>
+            <p class="light">The primary lighting source for rural African families are Kerosene lamps, which are dangerous, dirty and not very effective. <a href="http://www.azuri-technologies.com/">Azuri's PAYG solar</a> allows families to pay a small upfront fee and then a recurring weekly fee to purchase a solar system. As part of the organization Planete d'Entrepreneurs, I worked with Azuri to understand their business and then traveled to Kenya to assess the social impact that their product had on the families. Along with another volunteer, we developed metrics to quantitatively assess the impact and also to assess the effectiveness of the distribution network used to sell and support their product. We presented our findings which were ultimately used by the company to secure further financing and increase awareness of the company's mission.</p>
+          </div>
+        </div>
+
+         <!-- Project 5 -->
+        <div class="col s12 m4 card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light" style="height:180px;">
+            <img class="activator" src="img/project5.png" style="margin-top:50px;">
+          </div>
+          <div class="card-content">
+            <p class="light"><b>Algorithms and data structures</b> - python code written to explore different algorithms and data structures</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Algorithms and Data Structures<i class="material-icons right">close</i></span>
+            <div class="row valign-wrapper">
+              <a href="https://github.com/zandermath/python-algo"><img src="img/github.png" class="circle responsive-img" width="20" height="20"></a>
+            </div>
+            <p class="light">As part of my own curiosity and for a university course that I took while completing my masters in management, I created many different programs that use the object orientated concepts of abstraction, encapsulation and inheritance. The programs use link lists, queues, stacks, binary search trees, sorting algorithms amongst others to complete tasks or play games.</p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
         <div class="col s12 m4 card small hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="img/project1.png">
@@ -106,82 +183,6 @@
           </div>
         </div>
 
-        <div class="col s12 m4 card small hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/project2.png">
-          </div>
-          <div class="card-content">
-            <p class="light"><b>User Experience and UI Design</b> - Preliminary UI design for a Virtual Assistant for a hardware manufacturing company</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Front-end Design<i class="material-icons right">close</i></span>
-            <a class="btn btn-large waves-effect waves-light teal lighten-1" href="http://www.alexandermatheson.xyz/vsa-example">check it out</a>
-            <p class="light">The VSA Project was a project for a client that is providing a virtual shopping assistant to their distributers. Part of my duties along with the functional analysis was the preliminary front-end design. It incorporates Google's material design concepts. The base was then added to and changed by design experts for the final product, which is not yet released, but will be in retail stores and in online retailers websites around the world within the next year.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4 card small hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/ivr-agent.png">
-          </div>
-          <div class="card-content">
-            <p class="light"><b>PHP, Asterisk and Twilio</b> - Voice automated IVR to demonstrate the company's NLP software</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Natural Language Processing<i class="material-icons right">close</i></span>
-            <audio controls>
-              <source src="audio/info_portal.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-            <p class="light">The company I worked for specialized in Natural Language Processing software. The audio excerpt is from a demonstration I made to showcase the software in a call center application. I used the open source Asterisk software as a digital Prvate Branch Exchange (PBX) to handle the connection to the Public Switched Telephony Network (PSTN). I used Twilio to provide an incoming number and pass the caller to the PBX. PHP was used as the language to develop the dialog manager because it allows for easy interaction with the Asterisk Gateway Interface. The dialog manager connects the user to various external tools, such as the OpenWeatherMap API to provide location based weather and the Eventbrite API for location based events.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Row Two of projects -->
-      <div class="row">
-        <div class="col s12 m4 card small hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/project4.png" style="height:180px;">
-          </div>
-          <div class="card-content">
-            <p class="light"><b>Natural Language Slackbot</b> - A text based interface that allows slack users to interact with other apps directly in slack</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Slackbot<i class="material-icons right">close</i></span>
-            <a class="btn btn-large waves-effect waves-light teal lighten-1" href="https://github.com/zandermath/">check it out</a>
-            <p class="light">*This project is still in its early stages* Due to the insane increase in popularity of Slack, I thought that it would be a fun project to try and make a slack bot. I have only just started this project and have been playing around with using webhooks and the Real Time Messaging API. The idea of the project is to build a bot that people can use to greatly increase their workflow by allowing users to interact with CRMs, ERPs, search engines and other services in a natural way, without leaving Slack. </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4 card small hoverable">
-          <div class="card-image waves-effect waves-block waves-light" style="height:180px;">
-            <img class="activator" src="img/project5.png" style="margin-top:50px;">
-          </div>
-          <div class="card-content">
-            <p class="light"><b>Algorithms and data structures</b> - repository of python code written to explore different algorithms and data structures</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Algorithms and Data Structures<i class="material-icons right">close</i></span>
-            <div class="row valign-wrapper">
-              <a href="https://github.com/zandermath/python-algo"><img src="img/github.png" class="circle responsive-img" width="20" height="20"></a>
-            </div>
-            <p class="light">As part of my own curiosity and for a university course that I took while completing my masters in management, I created many different programs that use the object orientated concepts of abstraction, encapsulation and inheritance. The programs use link lists, queues, stacks, binary search trees, sorting algorithms amongst others to complete tasks or play games.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4 card small hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/project6-2.jpg">
-          </div>
-          <div class="card-content">
-            <p class="light"><b>Volunteer Consulting</b> - Social impact and marketing consulting for a Pay-As-You-Go (PAYG) solar company <a href="http://www.azuri-technologies.com/">Azuri</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Volunteer Consulting<i class="material-icons right">close</i></span>
-            <p class="light">The primary lighting source for rural African families are Kerosene lamps, which are dangerous, dirty and not very effective. <a href="http://www.azuri-technologies.com/">Azuri's PAYG solar</a> allows families to pay a small upfront fee and then a recurring weekly fee to purchase a solar system. As part of the organization Planete d'Entrepreneurs, I worked with Azuri to understand their business and then traveled to Kenya to assess the social impact that their product had on the families. Along with another volunteer, we developed metrics to quantitatively assess the impact and also to assess the effectiveness of the distribution network used to sell and support their product. We presented our findings which were ultimately used by the company to secure further financing and increase awareness of the company's mission.</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
